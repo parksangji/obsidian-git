@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/이진 탐색 트리 (Binary Search Tree, BST).md",
+                "file": "Algorithm/깊이 우선 탐색(Depth-First Search, DFS).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "이진 탐색 트리 (Binary Search Tree, BST)"
+              "title": "깊이 우선 탐색(Depth-First Search, DFS)"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5,
-    "collapsed": true
+    "width": 259.5
   },
   "right": {
     "id": "3dfccd1e906577f2",
@@ -171,8 +170,8 @@
   },
   "active": "984f6878b3ddfe53",
   "lastOpenFiles": [
-    "Network/IP 주소 지정(IP Addressing)과 서브네팅(Subnetting).md",
     "Algorithm/이진 탐색 트리 (Binary Search Tree, BST).md",
+    "Network/IP 주소 지정(IP Addressing)과 서브네팅(Subnetting).md",
     "무제.canvas",
     "Algorithm/깊이 우선 탐색(Depth-First Search, DFS).md",
     "Pasted image 20250409165932.png",
