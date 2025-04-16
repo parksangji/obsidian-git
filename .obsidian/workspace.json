@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operation System/교착 상태 (Deadlock).md",
+                "file": "Data Structure/힙 (Heap).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "교착 상태 (Deadlock)"
+              "title": "힙 (Heap)"
             }
           }
         ]
@@ -170,8 +170,8 @@
   },
   "active": "d70754b365e3a279",
   "lastOpenFiles": [
-    "Pasted image 20250415090542.png",
     "Operation System/교착 상태 (Deadlock).md",
+    "Pasted image 20250415090542.png",
     "Network/IP 주소 지정(IP Addressing)과 서브네팅(Subnetting).md",
     "Data Structure/힙 (Heap).md",
     "Algorithm/다익스트라 알고리즘(Dijkstra`s Algorithm).md",
