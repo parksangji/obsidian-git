@@ -34,10 +34,13 @@ jobs:
           node-version: '18.x'
 
       - name: Install dependencies
-        run: npm install glob # glob 패키지 설치
+        run: npm install glob
+
+      - name: Create _data directory
+        run: mkdir -p _data
 
       - name: Generate file list
-        run: node generateFileList.js # 파일 목록 생성 스크립트 실행
+        run: node generateFileList.js
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
