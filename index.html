@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Obsidian Notes</title>
+</head>
+<body>
+  <h1>My Notes</h1>
+  <ul>
+    {% for note in site.data.notes.files %}
+      <li><a href="#">{{ note.path }}</a></li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
