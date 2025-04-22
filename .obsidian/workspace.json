@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5e85c4a583d71225",
+        "id": "a9d0f0b3a383ef91",
         "type": "tabs",
         "children": [
           {
-            "id": "8a37408090346397",
+            "id": "e6782600ab2c77e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Data Structure/서로소 집합 (Disjoint Sets).md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/스크린샷 2025-03-19 오후 5.56.10.png"
               },
-              "icon": "lucide-file",
-              "title": "서로소 집합 (Disjoint Sets)"
+              "icon": "lucide-image",
+              "title": "스크린샷 2025-03-19 오후 5.56.10"
             }
           }
         ]
@@ -168,37 +166,40 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8a37408090346397",
+  "active": "a49924e8063627f0",
   "lastOpenFiles": [
-    "Pasted image 20250422154903.png",
+    "무제.md",
+    "obsidian",
+    "index.html",
+    "obsidian/Data Structure/서로소 집합 (Disjoint Sets).md",
+    "obsidian/Pasted image 20250422154903.png",
     "Pasted image 20250422154855.png",
-    "Algorithm/프림 알고리즘 (Prim's Algorithm).md",
-    "Data Structure/서로소 집합 (Disjoint Sets).md",
-    "Pasted image 20250421150632.png",
-    "Database/동시성 제어 (Concurrency Control).md",
+    "obsidian/Algorithm/프림 알고리즘 (Prim's Algorithm).md",
+    "obsidian/Pasted image 20250421150632.png",
+    "obsidian/Database/동시성 제어 (Concurrency Control).md",
     "Operation System/메모리 관리 (Memory Management).md",
-    "Network/IP 주소 지정(IP Addressing)과 서브네팅(Subnetting).md",
-    "Network/HTTP (HyperText Transfer Protocol).md",
-    "Data Structure/힙 (Heap).md",
-    "Operation System/교착 상태 (Deadlock).md",
-    "Pasted image 20250415090542.png",
-    "Algorithm/다익스트라 알고리즘(Dijkstra`s Algorithm).md",
-    "JAVA/스레드 풀(Thread pool).md",
-    "Pasted image 20250414160413.png",
-    "Algorithm/너비 우선 탐색 (Breadth-First Search, BFS).md",
-    "Database/데이터베이스 정규화 (Database Normalization).md",
-    "Algorithm/깊이 우선 탐색(Depth-First Search, DFS).md",
-    "Algorithm/이진 탐색 트리 (Binary Search Tree, BST).md",
+    "obsidian/Network/IP 주소 지정(IP Addressing)과 서브네팅(Subnetting).md",
+    "obsidian/Network/HTTP (HyperText Transfer Protocol).md",
+    "obsidian/Data Structure/힙 (Heap).md",
+    "obsidian/Operation System/교착 상태 (Deadlock).md",
+    "obsidian/Pasted image 20250415090542.png",
+    "obsidian/Algorithm/다익스트라 알고리즘(Dijkstra`s Algorithm).md",
+    "obsidian/JAVA/스레드 풀(Thread pool).md",
+    "obsidian/Pasted image 20250414160413.png",
+    "obsidian/Algorithm/너비 우선 탐색 (Breadth-First Search, BFS).md",
+    "obsidian/Database/데이터베이스 정규화 (Database Normalization).md",
+    "obsidian/Algorithm/깊이 우선 탐색(Depth-First Search, DFS).md",
+    "obsidian/Algorithm/이진 탐색 트리 (Binary Search Tree, BST).md",
     "무제.canvas",
-    "Pasted image 20250409165932.png",
-    "Pasted image 20250409165909.png",
-    "Pasted image 20250409165831.png",
-    "Pasted image 20250409165817.png",
-    "Pasted image 20250409165719.png",
-    "Algorithm/동적계획법 (Dynamic Programming, DP).md",
-    "Database/트랜잭션 격리 수준(Transaction Isolation Level).md",
-    "Database/중첩 루프 조인(Nested Loop).md",
-    "Operation System/Round Robin, RR.md",
+    "obsidian/Pasted image 20250409165932.png",
+    "obsidian/Pasted image 20250409165909.png",
+    "obsidian/Pasted image 20250409165831.png",
+    "obsidian/Pasted image 20250409165817.png",
+    "obsidian/Pasted image 20250409165719.png",
+    "obsidian/Algorithm/동적계획법 (Dynamic Programming, DP).md",
+    "obsidian/Database/트랜잭션 격리 수준(Transaction Isolation Level).md",
+    "obsidian/Database/중첩 루프 조인(Nested Loop).md",
+    "obsidian/Operation System/Round Robin, RR.md",
     "CS 1"
   ]
 }
