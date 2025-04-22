@@ -8,12 +8,23 @@ glob('obsidian/**/*.md', (err, files) => {
     return;
   }
 
-  const fileList = files.map(file => {
-    const fileName = path.relative('obsidian', file); // obsidian 디렉토리 기준으로 상대 경로 생성
-    return { path: fileName };
+  const categories = {};
+
+  files.forEach(file => {
+    const relativePath = path.relative('obsidian', file);
+    const parts = relativePath.split(path.sep);
+    const category = parts[0];
+    const fileName = parts.slice(1).join(path.sep);
+
+    if (fileName) { // 자식 디렉토리 바로 아래의 md 파일만 처리
+      if (!categories[category]) {
+        categories[category] = [];
+      }
+      categories[category].push({ path: fileName, fullPath: relativePath });
+    }
   });
 
-  const data = JSON.stringify({ files: fileList }, null, 2);
+  const data = JSON.stringify({ categories: categories }, null, 2);
   fs.writeFileSync('_data/notes.json', data);
   console.log('_data/notes.json generated successfully!');
 });
