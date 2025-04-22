@@ -2,7 +2,7 @@ const glob = require('glob');
 const fs = require('fs');
 const path = require('path');
 
-glob('obsidian/**/*.md', (err, files) => {
+glob('_notes/**/*.md', (err, files) => { // obsidian 대신 _notes로 경로 수정
   if (err) {
     console.error(err);
     return;
@@ -11,16 +11,21 @@ glob('obsidian/**/*.md', (err, files) => {
   const categories = {};
 
   files.forEach(file => {
-    const relativePath = path.relative('obsidian', file);
+    const relativePath = path.relative('_notes', file); // obsidian 대신 _notes로 경로 수정
     const parts = relativePath.split(path.sep);
     const category = parts[0];
-    const fileName = parts.slice(1).join(path.sep);
+    const fileNameWithExt = parts.slice(1).join(path.sep);
+    const fileNameWithoutExt = fileNameWithExt.replace('.md', '');
 
-    if (fileName) { // 자식 디렉토리 바로 아래의 md 파일만 처리
+    if (fileNameWithExt) {
       if (!categories[category]) {
         categories[category] = [];
       }
-      categories[category].push({ path: fileName, fullPath: relativePath });
+      categories[category].push({
+        path: fileNameWithExt,
+        fullPath: relativePath,
+        nameWithoutExt: fileNameWithoutExt
+      });
     }
   });
 
